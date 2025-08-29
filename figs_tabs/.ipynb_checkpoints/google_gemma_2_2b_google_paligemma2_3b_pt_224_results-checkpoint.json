@@ -1,0 +1,205 @@
+{
+  "layers": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24
+  ],
+  "overall_analysis": {
+    "most_similar_layer": 4,
+    "most_different_layer": 24,
+    "highest_overlap_layer": 8,
+    "highest_delta_loss_layer": 4,
+    "avg_similarity_across_layers": 0.6380801146229108,
+    "avg_overlap_across_layers": 0.027626882412005217,
+    "avg_delta_loss_across_layers": 6.286461997032165,
+    "layer_similarities": {
+      "4": 0.9432521820068359,
+      "8": 0.8886117935180664,
+      "12": 0.7519147425889969,
+      "16": 0.5240761518478394,
+      "20": 0.4430495262145996,
+      "24": 0.27757629156112673
+    },
+    "layer_overlaps": {
+      "4": 0.03868372999131679,
+      "8": 0.06932267993688583,
+      "12": 0.03249197956174612,
+      "16": 0.007762649445794523,
+      "20": 0.006709648575633764,
+      "24": 0.010790606960654259
+    }
+  },
+  "layer_summaries": {
+    "4": {
+      "avg_model1_metrics": {
+        "reconstruction_loss": 14.373958683013916,
+        "l0_sparsity": 0.037369155883789064,
+        "l1_sparsity": 0.1406918630003929,
+        "fraction_alive": 0.363909912109375,
+        "mean_max_activation": 54.160671615600585,
+        "reconstruction_score": 0.0,
+        "model_delta_loss": -6.286461997032165
+      },
+      "avg_model2_metrics": {
+        "reconstruction_loss": 2.0875625610351562,
+        "l0_sparsity": 0.03721475601196289,
+        "l1_sparsity": 0.12023611776530743,
+        "fraction_alive": 0.0799835205078125,
+        "mean_max_activation": 40.97983818054199,
+        "reconstruction_score": 0.6579585209488868,
+        "model_delta_loss": 0.0
+      },
+      "avg_shift_metrics": {
+        "cosine_similarity": 0.9432521820068359,
+        "l2_distance": 34.38477478027344,
+        "feature_overlap": 0.03868372999131679,
+        "js_divergence": 1.3407028555870055,
+        "feature_correlation": 0.9420936912298202
+      },
+      "n_samples": 20
+    },
+    "8": {
+      "avg_model1_metrics": {
+        "reconstruction_loss": 257.48360748291014,
+        "l0_sparsity": 0.07212615013122559,
+        "l1_sparsity": 0.37332321852445605,
+        "fraction_alive": 0.4082122802734375,
+        "mean_max_activation": 65.68468627929687,
+        "reconstruction_score": 0.0,
+        "model_delta_loss": -6.286461997032165
+      },
+      "avg_model2_metrics": {
+        "reconstruction_loss": 21.374562358856203,
+        "l0_sparsity": 0.08260269165039062,
+        "l1_sparsity": 0.3490176036953926,
+        "fraction_alive": 0.1112823486328125,
+        "mean_max_activation": 51.2236047744751,
+        "reconstruction_score": 0.0,
+        "model_delta_loss": 0.0
+      },
+      "avg_shift_metrics": {
+        "cosine_similarity": 0.8886117935180664,
+        "l2_distance": 78.6536907196045,
+        "feature_overlap": 0.06932267993688583,
+        "js_divergence": 1.623109471797943,
+        "feature_correlation": 0.8797999888658523
+      },
+      "n_samples": 20
+    },
+    "12": {
+      "avg_model1_metrics": {
+        "reconstruction_loss": 211.1601905822754,
+        "l0_sparsity": 0.037713479995727536,
+        "l1_sparsity": 0.26741726994514464,
+        "fraction_alive": 0.3397247314453125,
+        "mean_max_activation": 76.6998218536377,
+        "reconstruction_score": 0.0,
+        "model_delta_loss": -6.286461997032165
+      },
+      "avg_model2_metrics": {
+        "reconstruction_loss": 18.358275890350342,
+        "l0_sparsity": 0.060201263427734374,
+        "l1_sparsity": 0.30979669988155367,
+        "fraction_alive": 0.086932373046875,
+        "mean_max_activation": 45.097261619567874,
+        "reconstruction_score": 0.0,
+        "model_delta_loss": 0.0
+      },
+      "avg_shift_metrics": {
+        "cosine_similarity": 0.7519147425889969,
+        "l2_distance": 113.15160064697265,
+        "feature_overlap": 0.03249197956174612,
+        "js_divergence": 2.9608187317848205,
+        "feature_correlation": 0.7370777040719986
+      },
+      "n_samples": 20
+    },
+    "16": {
+      "avg_model1_metrics": {
+        "reconstruction_loss": 521.0711975097656,
+        "l0_sparsity": 0.018829154968261718,
+        "l1_sparsity": 0.30818623304367065,
+        "fraction_alive": 0.4844512939453125,
+        "mean_max_activation": 156.06185913085938,
+        "reconstruction_score": 0.0,
+        "model_delta_loss": -6.286461997032165
+      },
+      "avg_model2_metrics": {
+        "reconstruction_loss": 19.562415885925294,
+        "l0_sparsity": 0.0346186637878418,
+        "l1_sparsity": 0.2610374718904495,
+        "fraction_alive": 0.0568328857421875,
+        "mean_max_activation": 76.03160285949707,
+        "reconstruction_score": 0.3157226026058197,
+        "model_delta_loss": 0.0
+      },
+      "avg_shift_metrics": {
+        "cosine_similarity": 0.5240761518478394,
+        "l2_distance": 178.16466674804687,
+        "feature_overlap": 0.007762649445794523,
+        "js_divergence": 5.058245325088501,
+        "feature_correlation": 0.5050713151693345
+      },
+      "n_samples": 20
+    },
+    "20": {
+      "avg_model1_metrics": {
+        "reconstruction_loss": 904.8511810302734,
+        "l0_sparsity": 0.03048672676086426,
+        "l1_sparsity": 0.513535225391388,
+        "fraction_alive": 0.45404052734375,
+        "mean_max_activation": 203.87640609741212,
+        "reconstruction_score": 0.0,
+        "model_delta_loss": -6.286461997032165
+      },
+      "avg_model2_metrics": {
+        "reconstruction_loss": 37.024472618103026,
+        "l0_sparsity": 0.0311281681060791,
+        "l1_sparsity": 0.3373870015144348,
+        "fraction_alive": 0.0442779541015625,
+        "mean_max_activation": 106.1104751586914,
+        "reconstruction_score": 0.2504118800163269,
+        "model_delta_loss": 0.0
+      },
+      "avg_shift_metrics": {
+        "cosine_similarity": 0.4430495262145996,
+        "l2_distance": 287.37546997070314,
+        "feature_overlap": 0.006709648575633764,
+        "js_divergence": 5.724164390563965,
+        "feature_correlation": 0.4219124436378479
+      },
+      "n_samples": 20
+    },
+    "24": {
+      "avg_model1_metrics": {
+        "reconstruction_loss": 734.3224212646485,
+        "l0_sparsity": 0.08465037345886231,
+        "l1_sparsity": 1.6723611235618592,
+        "fraction_alive": 0.3715301513671875,
+        "mean_max_activation": 274.13324584960935,
+        "reconstruction_score": 0.0,
+        "model_delta_loss": -6.286461997032165
+      },
+      "avg_model2_metrics": {
+        "reconstruction_loss": 104.74246063232422,
+        "l0_sparsity": 0.03985671997070313,
+        "l1_sparsity": 0.7175184488296509,
+        "fraction_alive": 0.06534423828125,
+        "mean_max_activation": 198.40428466796874,
+        "reconstruction_score": 0.453704959154129,
+        "model_delta_loss": 0.0
+      },
+      "avg_shift_metrics": {
+        "cosine_similarity": 0.27757629156112673,
+        "l2_distance": 739.3042144775391,
+        "feature_overlap": 0.010790606960654259,
+        "js_divergence": 6.808633160591126,
+        "feature_correlation": 0.23460151106119156
+      },
+      "n_samples": 20
+    }
+  }
+}
