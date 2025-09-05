@@ -1,0 +1,2 @@
+layer,train_acc,test_acc,test_f1,w_norm,steer_scale,steer_applied
+0,0.9925,0.955,0.9549898727213624,12.323262214660645,0.5,True
