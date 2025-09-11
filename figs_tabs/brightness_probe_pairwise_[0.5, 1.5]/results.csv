@@ -1,91 +1,184 @@
-steered_outs_2,steered_outs_4,steered_outs_10,steered_outs_20,layer,train_acc,test_acc,test_f1
-"Answer in [bright, dark]. Sam looks out of the window - The sky is dark",,,,,,,
-,"Answer in [bright, dark]. Sam looks out of the window - The sky is bright and dark",,,,,,
-,,"Answer in [bright, dark]. Sam looks out of the window - The sky is bright",,,,,
-,,,"Answer in [bright, dark]. Sam looks out of the window - The sky is in with graduation",,,,
-,,,,0.0,1.0,0.935,0.934998374959374
-"Answer in [bright, dark]. Sam looks out of the window - The sky is so",,,,,,,
-,"Answer in [bright, dark]. Sam looks out of the window - The sky is",,,,,,
-,,"Answer in [bright, dark]. Sam looks out of the window - The sky is dark",,,,,
-,,,"Answer in [bright, dark]. Sam looks out of the window - The sky is",,,,
-,,,,1.0,1.0,0.965,0.9649991249781245
-"Answer in [bright, dark]. Sam looks out of the window - The sky is bright dark",,,,,,,
-,"Answer in [bright, dark]. Sam looks out of the window - The sky is",,,,,,
-,,"Answer in [bright, dark]. Sam looks out of the window - The sky is bright and",,,,,
-,,,"Answer in [bright, dark]. Sam looks out of the window - The sky is books books books books",,,,
-,,,,2.0,1.0,0.955,0.9549988749718743
-"Answer in [bright, dark]. Sam looks out of the window - The sky is bright and dark",,,,,,,
-,"Answer in [bright, dark]. Sam looks out of the window - The sky is bright dark",,,,,,
-,,"Answer in [bright, dark]. Sam looks out of the window - The sky is plain",,,,,
-,,,"Answer in [bright, dark]. Sam looks out of the window - The sky is to toto in to to to to to to 11 ,'' , , to to to to to to                                       ",,,,
-,,,,3.0,1.0,0.925,0.9249981249531238
-"Answer in [bright, dark]. Sam looks out of the window - The sky is bright",,,,,,,
-,"Answer in [bright, dark]. Sam looks out of the window - The sky is bright",,,,,,
-,,"Answer in [bright, dark]. Sam looks out of the window - The sky is dark",,,,,
-,,,"Answer in [bright, dark]. Sam looks out of the window - The sky is atatcdefdefdefdefdefdefdefdefdefdefadadad mama mama tose atadeano from bleusnoeslll1chermosa hermosa dada dada dada dada dada dada dada dada dada dada dada dada dada dada dada dada dada dada dada dada dada *hermosahermosadeInheritanceInheritance",,,,
-,,,,4.0,1.0,0.945,0.9449986249656241
-"Answer in [bright, dark]. Sam looks out of the window - The sky is",,,,,,,
-,"Answer in [bright, dark]. Sam looks out of the window - The sky is",,,,,,
-,,"Answer in [bright, dark]. Sam looks out of the window - The sky is dark",,,,,
-,,,"Answer in [bright, dark]. Sam looks out of the window - The sky is1  summer summer summer   holiday holiday split split split split di divi divi divi divi split split ag ag blue box box box box box box box box box bucket bucket bucket bucket box box box box box box box box box box box box box box box box box box box bucket bucket bucket bucket bucket bucket bucket bucket bucket",,,,
-,,,,5.0,1.0,0.905,0.9049976249406235
-"Answer in [bright, dark]. Sam looks out of the window - The sky is",,,,,,,
-,"Answer in [bright, dark]. Sam looks out of the window - The sky is bright and dark",,,,,,
-,,"Answer in [bright, dark]. Sam looks out of the window - The sky is",,,,,
-,,,"Answer in [bright, dark]. Sam looks out of the window - The sky is",,,,
-,,,,6.0,1.0,0.9,0.8999099189270343
-"Answer in [bright, dark]. Sam looks out of the window - The sky is bright and dark",,,,,,,
-,"Answer in [bright, dark]. Sam looks out of the window - The sky is bright and dark",,,,,,
-,,"Answer in [bright, dark]. Sam looks out of the window - The sky is bright",,,,,
-,,,"Answer in [bright, dark]. Sam looks out of the window - The sky is not",,,,
-,,,,7.0,1.0,0.94,0.93999399939994
-"Answer in [bright, dark]. Sam looks out of the window - The sky is bright and dark",,,,,,,
-,"Answer in [bright, dark]. Sam looks out of the window - The sky is",,,,,,
-,,"Answer in [bright, dark]. Sam looks out of the window - The sky is bright",,,,,
-,,,"Answer in [bright, dark]. Sam looks out of the window - The sky is",,,,
-,,,,8.0,1.0,0.925,0.9249981249531238
-"Answer in [bright, dark]. Sam looks out of the window - The sky is",,,,,,,
-,"Answer in [bright, dark]. Sam looks out of the window - The sky is bright and dark",,,,,,
-,,"Answer in [bright, dark]. Sam looks out of the window - The sky is over",,,,,
-,,,"Answer in [bright, dark]. Sam looks out of the window - The sky is",,,,
-,,,,9.0,1.0,0.935,0.9349853717086345
-"Answer in [bright, dark]. Sam looks out of the window - The sky is bright",,,,,,,
-,"Answer in [bright, dark]. Sam looks out of the window - The sky is",,,,,,
-,,"Answer in [bright, dark]. Sam looks out of the window - The sky is bright or dark",,,,,
-,,,"Answer in [bright, dark]. Sam looks out of the window - The sky is bright and",,,,
-,,,,10.0,1.0,0.93,0.93
-"Answer in [bright, dark]. Sam looks out of the window - The sky is",,,,,,,
-,"Answer in [bright, dark]. Sam looks out of the window - The sky is dark",,,,,,
-,,"Answer in [bright, dark]. Sam looks out of the window - The sky is dark night",,,,,
-,,,"Answer in [bright, dark]. Sam looks out of the window - The sky is dark",,,,
-,,,,11.0,1.0,0.905,0.9049976249406235
-"Answer in [bright, dark]. Sam looks out of the window - The sky is",,,,,,,
-,"Answer in [bright, dark]. Sam looks out of the window - The sky is bright dark",,,,,,
-,,"Answer in [bright, dark]. Sam looks out of the window - The sky is bright",,,,,
-,,,"Answer in [bright, dark]. Sam looks out of the window - The sky is bright",,,,
-,,,,12.0,1.0,0.89,0.8899889988998899
-"Answer in [bright, dark]. Sam looks out of the window - The sky is",,,,,,,
-,"Answer in [bright, dark]. Sam looks out of the window - The sky is dark",,,,,,
-,,"Answer in [bright, dark]. Sam looks out of the window - The sky is bright and dark",,,,,
-,,,"Answer in [bright, dark]. Sam looks out of the window - The sky is bright, but the earth is dark",,,,
-,,,,13.0,1.0,0.82,0.8199279711884754
-"Answer in [bright, dark]. Sam looks out of the window - The sky is bright dark",,,,,,,
-,"Answer in [bright, dark]. Sam looks out of the window - The sky is bright",,,,,,
-,,"Answer in [bright, dark]. Sam looks out of the window - The sky is bright",,,,,
-,,,"Answer in [bright, dark]. Sam looks out of the window - The sky is bright and dark",,,,
-,,,,14.0,1.0,0.815,0.8149953748843721
-"Answer in [bright, dark]. Sam looks out of the window - The sky is bright",,,,,,,
-,"Answer in [bright, dark]. Sam looks out of the window - The sky is bright, dark",,,,,,
-,,"Answer in [bright, dark]. Sam looks out of the window - The sky is bright",,,,,
-,,,"Answer in [bright, dark]. Sam looks out of the window - The sky is bright and dark",,,,
-,,,,15.0,1.0,0.825,0.8248905565978737
-"Answer in [bright, dark]. Sam looks out of the window - The sky is bright",,,,,,,
-,"Answer in [bright, dark]. Sam looks out of the window - The sky is",,,,,,
-,,"Answer in [bright, dark]. Sam looks out of the window - The sky is",,,,,
-,,,"Answer in [bright, dark]. Sam looks out of the window - The sky is bright and dark",,,,
-,,,,16.0,1.0,0.8,0.7999199679871949
-"Answer in [bright, dark]. Sam looks out of the window - The sky is",,,,,,,
-,"Answer in [bright, dark]. Sam looks out of the window - The sky is",,,,,,
-,,"Answer in [bright, dark]. Sam looks out of the window - The sky is bright",,,,,
-,,,"Answer in [bright, dark]. Sam looks out of the window - The sky is bright and dark",,,,
-,,,,17.0,1.0,0.805,0.8049561151259033
+layer,train_acc,test_acc,test_f1,steered_outs_0,steered_outs_1,steered_outs_2,steered_outs_5,steered_outs_10,steered_outs_20
+0,0.9925,0.955,0.9549898727213624,"answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+1","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+my mom and my dog","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+with person"
+1,1.0,0.95,0.9499949994999499,"answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+5","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+person with her dog","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+: 5"
+2,1.0,0.945,0.9449876222149984,"answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+happy dog","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+#"
+3,1.0,0.945,0.9449325423643964,"answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very bright","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+person","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+person","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+person said that the dog is only"
+4,1.0,0.955,0.9549718574108819,"answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+yes","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+granddaughter","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+person has a good idea of how to brighten up this room","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+cat"
+5,1.0,0.98,0.98,"answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+5","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very bright","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+person","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+the only dog of the family"
+6,1.0,0.985,0.9849966242404541,"answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very bright","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+0","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+dog","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+dog"
+7,1.0,0.97,0.9699729756781104,"answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very bright","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very bright","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+this dog's cat","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+picture is very dark"
+8,1.0,0.94,0.9399759903961584,"answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very bright","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+only with","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very bright"
+9,1.0,0.945,0.9449876222149984,"answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+bright","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+yes","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+picture is very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+person"
+10,1.0,0.92,0.9199679871948779,"answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+white cat"
+11,1.0,0.94,0.93999399939994,"answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+5","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark"
+12,1.0,0.93,0.9299929992999301,"answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very bright","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very bright","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+bright","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark"
+13,1.0,0.94,0.9399759903961584,"answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+5","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+0"
+14,1.0,0.915,0.9149808706959066,"answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very bright","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very bright","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+yes"
+15,1.0,0.905,0.9049786201895427,"answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+only","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very bright","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark"
+16,1.0,0.91,0.9099639855942376,"answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+bright","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+5","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark"
+17,1.0,0.875,0.8747463613817982,"answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+5","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very bright","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very bright","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very bright","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark"
+18,1.0,0.805,0.8046043237556051,"answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark"
+19,1.0,0.8,0.7998198378540686,"answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+bright","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very bright","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very"
+20,1.0,0.8,0.8,"answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very bright","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+5","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very bright","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark"
+21,1.0,0.78,0.7798018216394755,"answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+5","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+5","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+5","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very bright"
+22,1.0,0.78,0.77997799779978,"answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark"
+23,1.0,0.775,0.7749493636068115,"answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very bright","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very"
+24,1.0,0.775,0.7749493636068115,"answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very bright","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+bright","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very bright","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark"
+25,1.0,0.775,0.7749943748593715,"answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very bright","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+only","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very","answer with only an INTEGER between 1 and 5: 'Is the picture bright or dark? Answer (1 for very dark, 2 for dark, 3 for neutral, 4 for bright, 5 for very bright)'
+very dark"
+26,1.0,0.72,0.7197477729956961,N/A,N/A,N/A,N/A,N/A,N/A

@@ -1,0 +1,211 @@
+layer,train_acc,test_acc,test_f1,steered_outs_0,steered_outs_1,steered_outs_2,steered_outs_5,steered_outs_10,steered_outs_20
+0,0.9875,0.905,0.9049976249406235,"answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+4","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+person","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+a lot"
+0,0.9875,0.905,0.9049976249406235,,,,,,
+1,1.0,0.905,0.9049976249406235,"answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+person","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+number","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+"
+1,1.0,0.905,0.9049976249406235,,,,,,
+2,1.0,0.91,0.90999099909991,"answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+yes","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+dog","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+ pet dog walks on their feet and then walks on their back"
+2,1.0,0.91,0.90999099909991,,,,,,
+3,1.0,0.89,0.8899889988998899,"answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+yes","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+person","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+if"
+3,1.0,0.89,0.8899889988998899,,,,,,
+4,1.0,0.91,0.90999099909991,"answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+my mom says to her dog when she sees me walking out the door","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+my dog likes to dance on the carpet","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+dog is very red"
+4,1.0,0.91,0.90999099909991,,,,,,
+5,1.0,0.92,0.91999199919992,"answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+0","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+corgi on a mission","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+person","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+person says she is a little bit mad that her dog is barking at her."
+5,1.0,0.92,0.91999199919992,,,,,,
+6,1.0,0.905,0.9049405878674172,"answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+2","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+0","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+yes","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+my cat loves people","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+i love my dog","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+no"
+6,1.0,0.905,0.9049405878674172,,,,,,
+7,1.0,0.88,0.87998799879988,"answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+number","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+if not red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+dog is surprised when he sees his mom"
+7,1.0,0.88,0.87998799879988,,,,,,
+8,1.0,0.865,0.864726070292342,"answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+0","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+number","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+person","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+person likes to see his owner"
+8,1.0,0.865,0.864726070292342,,,,,,
+9,1.0,0.825,0.8249956248906223,"answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+0","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+0","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+person","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+dog in front of the tv"
+9,1.0,0.825,0.8249956248906223,,,,,,
+10,1.0,0.82,0.8197115384615384,"answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+2","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+person","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+person"
+10,1.0,0.82,0.8197115384615384,,,,,,
+11,1.0,0.82,0.8198378540686617,"answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+picture is red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+dog","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+is very red"
+11,1.0,0.82,0.8198378540686617,,,,,,
+12,1.0,0.795,0.7949948748718718,"answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+2","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+red"
+12,1.0,0.795,0.7949948748718718,,,,,,
+13,1.0,0.8,0.7998198378540686,"answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+person is very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+1"
+13,1.0,0.8,0.7998198378540686,,,,,,
+14,1.0,0.775,0.7743173098623335,"answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+1","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+red"
+14,1.0,0.775,0.7743173098623335,,,,,,
+15,1.0,0.735,0.7335009428032684,"answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red"
+15,1.0,0.735,0.7335009428032684,,,,,,
+16,1.0,0.795,0.7948717948717949,"answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+1","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red"
+16,1.0,0.795,0.7948717948717949,,,,,,
+17,1.0,0.675,0.674601386698706,"answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+extremely red"
+17,1.0,0.675,0.674601386698706,,,,,,
+18,1.0,0.71,0.71,"answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+2","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+1"
+18,1.0,0.71,0.71,,,,,,
+19,1.0,0.675,0.6726347863312432,"answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red"
+19,1.0,0.675,0.6726347863312432,,,,,,
+20,1.0,0.705,0.7048155096935584,"answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+2","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+0","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+2","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red"
+20,1.0,0.705,0.7048155096935584,,,,,,
+21,1.0,0.725,0.7249931248281207,"answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+yes","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+yes","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red"
+21,1.0,0.725,0.7249931248281207,,,,,,
+22,1.0,0.66,0.6591478696741855,"answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red"
+22,1.0,0.66,0.6591478696741855,,,,,,
+23,1.0,0.72,0.7197477729956961,"answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5"
+23,1.0,0.72,0.7197477729956961,,,,,,
+24,1.0,0.71,0.7098839535814325,"answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+2"
+24,1.0,0.71,0.7098839535814325,,,,,,
+25,1.0,0.73,0.7297567811029927,"answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+number","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+5","answer with an INTEGER between 1 and 5: 'Is the picture red or not red? Answer (1 for not red at all, 2 for not red, 3 for neutral, 4 for red, 5 for very red)'
+very red"
+25,1.0,0.73,0.7297567811029927,,,,,,
+26,1.0,0.72,0.7198879551820728,N/A,N/A,N/A,N/A,N/A,N/A
+26,1.0,0.72,0.7198879551820728,,,,,,
