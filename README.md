@@ -1,93 +1,107 @@
-Representation Shifts in Multimodal Adaptation
+# Representational Shifts in Multimodal Adaptation
 
-This repository contains experiments exploring how multimodal models
-represent different kinds of information. Two concrete probing tasks
-are provided: a modality probe that distinguishes image tokens
-from text tokens, and a brightness probe that asks whether the
-model linearly encodes changes in image brightness. Both tasks
-operate on COCO val2017 and use the PaliGemma
-language–vision model
-.
+## TL;DR
+This repository investigates how internal representations of a large language model (LLM) change when adapted into a vision–language model (VLM).  
+We compare **Gemma-2 2B** (LLM) with **PaliGemma-2 3B** (VLM), focusing on:
+- Representation shifts using **Sparse Auto-Encoders (SAEs)**
+- **Linear probes** for semantic transfer across modalities
+- **Attribute-specific probes** (brightness, modality, redness, etc.)
+- Suggestions for **extensions and repository improvements**
 
-Project Structure
+---
 
-scripts/LinearProbes_ImageTextClassification.ipynb – Notebook that
-performs a pairwise‑controlled modality probing experiment. Each
-COCO image is paired with one randomly selected caption to control
-semantics. A linear classifier is trained at every layer to
-distinguish image versus text representations. The notebook
-leverages shared utilities for data loading, activation
-extraction and probe training.
+## Overview
+This repository explores how the internal representations of an LLM change when adapted into a VLM.  
+We analyse **Google’s Gemma-2 2B** LLM and its multimodal variant **PaliGemma-2 3B**, examining:
+- Representation-level shifts
+- Information that can be linearly extracted
+- Alignment across modalities (text ↔ vision)
 
-scripts/LinearProbes_Brightness.ipynb – Notebook that builds a
-brightness dataset by artificially darkening and brightening each
-selected image. A single caption per image is used for semantic
-control, but only the image representations are probed. Data are
-split by base_id to avoid identity leakage: all variants of the
-same image remain in either the training or test split. Linear
-probes are trained across layers to see whether brightness is
-linearly encoded.
+The code is organised around **three main experiments** plus a few supporting notebooks.  
+A summary of each experiment and possible extensions is provided below.
 
-utils/data_utils.py – Functions for constructing balanced
-image–text datasets and brightness variants, and for performing
-groupwise train/test splits. Use these helpers instead of
-duplicating data handling logic across notebooks.
+---
 
-utils/activation_utils.py – Functions for preloading image bytes
-and extracting hidden activations from PaliGemma in both “raw”
-(vision tower) and “lm” (projected into the language model) modes.
-A simple automatic mixed precision context is provided to reduce
-GPU memory usage during extraction.
+## Experiments
 
-utils/probe_utils.py – A dataclass for holding probe results and
-two functions for training logistic regression classifiers. Use
-train_linear_probe_on_splits when you have explicit train/test
-partitions (e.g., in pairwise‑controlled experiments). Use
-train_linear_probe for random train/test splits when no prior
-partition exists.
+### 1. SAE-based Representation Shift Analysis
+**Goal:** Quantify how Gemma’s hidden activations change after multimodal training.  
 
-answer.js – Starter for generating presentation slides (not
-modified in this project).
+- Notebook: `scripts/minimal.ipynb`  
+- Uses a **Sparse Auto-Encoder (SAE)** from the `sae-lens` library, trained on Gemma.  
+- Projects activations from **Gemma-2 2B** and **PaliGemma-2 3B** into a **shared sparse basis**.  
+- Metrics: cosine similarity, L² distance, top-k activated basis vectors.  
 
-Running the Experiments
+**Key Findings:**
+- Overall structure preserved (cosine ≈ 0.95).  
+- **Visually grounded tokens** (objects, colours, spatial terms) shift most.  
+- **Syntactic features** shift less.  
+- Adaptation reallocates capacity towards **visual semantics**.
 
-Install dependencies. A Python 3.11 environment with PyTorch,
-Transformers, scikit‑learn, pycocotools, pandas and matplotlib is
-required. The notebooks will attempt to install missing packages
-at runtime if you run them as provided.
+**Potential Extensions:**
+- Layer-wise analysis across all decoder layers  
+- Train SAEs on PaliGemma activations directly  
+- Correlate shifts with downstream multimodal performance  
+- Cross-language prompts  
+- Combine with **linear probes**
 
-Download the COCO 2017 train/val images and annotations into
-../data/train2017, ../data/val2017 and
-../data/annotations_trainval2017/annotations. Adjust the
-ANNO_DIR and IMG_DIR paths in the notebooks if your data
-lives elsewhere.
+---
 
-Run scripts/LinearProbes_ImageTextClassification.ipynb. It
-constructs a balanced dataset, splits by file_name to avoid
-semantic leakage, extracts layer‑wise activations from
-PaliGemma, trains probes using train_linear_probe_on_splits,
-and plots accuracy/F1 across layers.
+### 2. Linear Probes: Semantic Transfer Between Modalities
+**Goal:** Test whether semantics learned in text transfer to vision (and vice versa).  
 
-Run scripts/LinearProbes_Brightness.ipynb to generate the
-brightness variants, perform the pairwise train/test split by
-base_id, extract activations, train probes per layer and plot
-results. The CSV and perturbed images are saved into
-../data/brightness_pairs and ../data/brightness_dataset.csv.
+- Notebook: `scripts/linear_probes.ipynb`  
+- Dataset: COCO 2017 images + captions, balanced across categories (animals, vehicles, food, indoor scenes).  
+- Probes: **logistic regression** (via `ProbeResult` in `scripts/probe_utils.py`).  
 
-Design Notes
+**Observations:**
+- High in-modality accuracy (>90%).  
+- Cross-modal transfer ≈ chance level → representations not linearly aligned.  
+- Text emphasises **compositional semantics**; vision emphasises **colour/shape/spatial context**.  
 
-The original notebooks contained duplicate code for loading data,
-extracting hidden states and training probes. To improve
-maintainability this refactor introduces modular utilities in
-utils/. Each experiment now focuses on the high‑level logic
-(construct dataset, split, extract activations, probe) while reusing
-shared components. Two probe functions are provided: one that
-performs its own random split (train_linear_probe) and one that
-operates on pre‑defined splits (train_linear_probe_on_splits).
+**Potential Extensions:**
+- Non-linear probes (MLPs, kernels)  
+- Contrastive fine-tuning on image–text pairs  
+- More categories (fine-grained classes, actions, colours)  
+- Probe different hidden layers  
 
-For the modality experiment we extract both image and text
-representations using the PaliGemma language model (the vision tower
-is only used internally via the processor). For the brightness
-experiment we extract only image representations. In both cases
-activations are mean‑pooled over the sequence dimension before
-probing.
+---
+
+### 3. Linear Probes for Modality, Brightness, and Redness
+**Goal:** Probe simple binary properties for interpretability.  
+
+- **Modality classification** (`scripts/linear_probes_img_txt_cls.ipynb`):  
+  - Dataset: `coco_imgs_text_balanced_val.csv`  
+  - Probe can perfectly distinguish image vs text activations.  
+
+- **Brightness probe** (`scripts/LinearProbes_brightness.ipynb`):  
+  - Constructs brightened/darkened COCO images.  
+  - Vision tower activations linearly encode brightness.  
+
+- **Redness probe (planned):**  
+  - Adjust red channel intensity, train probe on less-red vs more-red variants.  
+
+**Potential Extensions:**
+- Probe for other low-level attributes (saturation, contrast, blur, rotation).  
+- Joint modality–attribute probes (modality + brightness/colour).  
+- Extend to temporal/video signals.  
+
+---
+
+## Repository Improvements
+
+- **Unified dataset scripts:** reduce duplication with a shared loader & augmentation pipeline.  
+- **Configuration files:** move hyper-parameters into YAML/JSON for reproducibility.  
+- **Save & load probes:** store weights, reports, and extracted features.  
+- **Results logging & plots:** integrate visualisations and save figures.  
+- **Documentation:** expand README with environment setup, GPU guidance, and citations (e.g. [Gemma Scope], PaliGemma papers).  
+
+---
+
+## Getting Started
+
+1. **Clone & install dependencies:**
+   ```bash
+   git clone <repo_url>
+   cd <repo_name>
+   pip install torch transformers sae-lens scikit-learn pandas
