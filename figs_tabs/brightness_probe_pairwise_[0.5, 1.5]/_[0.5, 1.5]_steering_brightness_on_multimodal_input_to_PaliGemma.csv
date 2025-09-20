@@ -1,0 +1,433 @@
+layer,train_acc,test_acc,test_f1,prompt,steered_outs_list_0,steered_out_enforced_int_avg0,steered_outs_list_1,steered_out_enforced_int_avg1,steered_outs_list_2,steered_out_enforced_int_avg2,steered_outs_list_5,steered_out_enforced_int_avg5,steered_outs_list_10,steered_out_enforced_int_avg10,steered_outs_list_20,steered_out_enforced_int_avg20,steered_outs_0,steered_out_enforced_int_0,steered_outs_1,steered_out_enforced_int_1,steered_outs_2,steered_out_enforced_int_2,steered_outs_5,steered_out_enforced_int_5,steered_outs_10,steered_out_enforced_int_10,steered_outs_20,steered_out_enforced_int_20
+0,0.9925,0.955,0.9549898727213624,"
+answer en Rate the OVERALL scene brightness from 1–5 by average appearance, 
+ignoring small light sources and specular highlights.
+
+Scale:
+1 = very dark / night-like
+2 = dim
+3 = moderate / typical indoor
+4 = bright
+5 = extremely bright (snow/sun glare, painful to look at)
+
+If uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.
+
+Question: What is the scene brightness?
+
+","['3 = light', '1 = very dark / night-like\n2 = dim\n3 = average indoor\n4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)', '4', '1 = very dark / night-like', 'Very dark to 1']",2.0,"['1 = very dark / night-like', '3', '3', '1 = very dark / night-like', 'Answer: moderate to bright']",3.6,"['1 2 3 4 5', 'Very dark', '1 = very dark / night-like', '3', '# 1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright']",1.8,"['2 3 4 5', '1', '1 2 3 4 5', 'very dark / night-like', 'dog']",2.8,"['3 = bright', '# : 1-5 average light', 'dog', '3 = moderate / typical indoor', 'dog']",2.2,"['Is it bright, medium, or dark?', 'I would say 2.', 'dog', 'How bright is this scene?', 'dog']",2.4,,,,,,,,,,,,
+1,1.0,0.95,0.9499949994999499,"
+answer en Rate the OVERALL scene brightness from 1–5 by average appearance, 
+ignoring small light sources and specular highlights.
+
+Scale:
+1 = very dark / night-like
+2 = dim
+3 = moderate / typical indoor
+4 = bright
+5 = extremely bright (snow/sun glare, painful to look at)
+
+If uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.
+
+Question: What is the scene brightness?
+
+","['10', '1 = very dark / night-like', '1 = very dark / night-like', '15', '2 = moderate / typical indoor']",2.0,"['5 = extremely bright', '2 = dim/typical indoor', 'Medium', '2', '1 = very dark / night-like']",1.8,"['1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4 = bright\n5 = extremely bright', '3 = average', '1 = very dark / night-like', '3', '5 = very bright']",3.4,"['#', '3 = moderate / typical indoor', '4 = bright', '0 = no light', '1 = very dark / night-like']",3.8,"['12345', '1', '5 = very bright', 'average', '3']",3.0,"['comment picture', '0', '#18', '3 = moderate / typical indoor', '0 = very dark / night-like']",2.8,,,,,,,,,,,,
+2,1.0,0.945,0.9449876222149984,"
+answer en Rate the OVERALL scene brightness from 1–5 by average appearance, 
+ignoring small light sources and specular highlights.
+
+Scale:
+1 = very dark / night-like
+2 = dim
+3 = moderate / typical indoor
+4 = bright
+5 = extremely bright (snow/sun glare, painful to look at)
+
+If uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.
+
+Question: What is the scene brightness?
+
+","['3', '1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor 4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)', '1 = very dark / night-like', '1 = very dark / night-like', '0 = extremely low']",2.4,"['0', '0 = extremely dark / night-like', '3 = moderate / typical indoor', '1', '1 2 3 4 5']",2.0,"['Answer: 3', '1 = very dark / night-like', 'Answer: 5', '# humor # animals # dog # funny', '2']",2.8,"['answer: 3', 'answer: average', '05:55', 'answer: average', 'answer: 3']",2.6,"['dog', 'No light source', '#1', 'answer : moderate', 'answer: 1']",4.2,"['##', '##: 1', 'answer : 3', ': 4', 'what is the scene brightness?']",1.4,,,,,,,,,,,,
+3,1.0,0.945,0.9449325423643964,"
+answer en Rate the OVERALL scene brightness from 1–5 by average appearance, 
+ignoring small light sources and specular highlights.
+
+Scale:
+1 = very dark / night-like
+2 = dim
+3 = moderate / typical indoor
+4 = bright
+5 = extremely bright (snow/sun glare, painful to look at)
+
+If uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.
+
+Question: What is the scene brightness?
+
+","['Answer: 5', '3 = average indoor', '1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright (snow/sun glare, painful to look at)', '1', '0 = dark']",1.4,"['0 = very dark / night-like', '2 = dim', '4 = bright', '3 = moderate / typical indoor', 'Answer: 3']",2.8,"['light', '5 = bright\n4 = moderate / typical indoor\n3 = dim\n2 = dim\n1 = very dark / night-like\n0 = no light\noutput\ntext', '2 = moderate / typical indoor', 'answer: average', '5']",4.0,"[""Dogs don't get it"", '4 = very bright', 'How bright is the scene?', 'dog', '1 = very dark / night-like']",2.4,"['answer: 3', 'dog', 'dog', 'dog and cat in home', 'image']",2.2,"['2 = dim', ': 2', '2 = moderate / typical indoor', 'Video', 'a = very dark / night-like']",1.6,,,,,,,,,,,,
+4,1.0,0.955,0.9549718574108819,"
+answer en Rate the OVERALL scene brightness from 1–5 by average appearance, 
+ignoring small light sources and specular highlights.
+
+Scale:
+1 = very dark / night-like
+2 = dim
+3 = moderate / typical indoor
+4 = bright
+5 = extremely bright (snow/sun glare, painful to look at)
+
+If uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.
+
+Question: What is the scene brightness?
+
+","['5 : extremely bright', '0 = very dark / night-like', '0 = very dark / night-like\n1 = dim\n2 = moderate / typical indoor\n3 = bright\n4 = extremely bright (snow/sun glare, painful to look at)', 'person', '1 = very dark / night-like']",2.8,"['3 = moderate / typical indoor', '3 = moderate / typical indoor', '0 = extremely dark / night-like 1 = dim 2 = moderate / typical indoor 3 = bright 5 = extremely bright', '1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)', '0']",3.0,"['0 = very dark / night-like', '1', '0 = very dark / night-like', '4 = bright', '0 = very dark / night-like']",1.0,"['image from youtube', '3 = moderate / typical indoor', 'I love how my dog is so polite to people who come over', 'People say my dog is bright', '0 = very dark / night-like\n1 = dim 2 = moderate / typical indoor 3 = bright 4 = extremely bright (snow/sun glare, painful to look at)\n5 = unreadable']",3.0,"['video', 'funny dog videos 2021', 'my dog', 'Video:', '1 = very dark / night-like']",2.4,"['you', '#', 'people watching tv', 'cats dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs dogs 6', 'dog does not like to leave his family']",1.8,,,,,,,,,,,,
+5,1.0,0.98,0.98,"
+answer en Rate the OVERALL scene brightness from 1–5 by average appearance, 
+ignoring small light sources and specular highlights.
+
+Scale:
+1 = very dark / night-like
+2 = dim
+3 = moderate / typical indoor
+4 = bright
+5 = extremely bright (snow/sun glare, painful to look at)
+
+If uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.
+
+Question: What is the scene brightness?
+
+","['1 = very dark / night-like', 'Answer: 3', '0 = dark', '1 2 3 4 5', '1 = very dark / night-like']",3.4,"['1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright (snow/sun glare, painful to look at)', '#', '5 = extremely bright', 'Scale:', '3']",2.0,"['4 = bright', '1 2 3 4 5', '1', '1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright', 'answer: moderate']",2.4,"['1 2 3 4 5', '00:17', '0 = dark', 'answer: How bright is the scene?', 'Answer: 2']",3.4,"['1 = very dark / night-like', '1 = very dark / night-like', 'dog', '1 2 3 4 5', '5 = extremely bright']",2.6,"['my dog', 'video', '1 5', '##', 'funny dogs']",3.0,,,,,,,,,,,,
+6,1.0,0.985,0.9849966242404541,"
+answer en Rate the OVERALL scene brightness from 1–5 by average appearance, 
+ignoring small light sources and specular highlights.
+
+Scale:
+1 = very dark / night-like
+2 = dim
+3 = moderate / typical indoor
+4 = bright
+5 = extremely bright (snow/sun glare, painful to look at)
+
+If uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.
+
+Question: What is the scene brightness?
+
+","['1', '1 2 3 4 5', '1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)', '1 = very dark / night-like', '5']",2.8,"['1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)', 'light', '1 = very dark / night-like', 'Answer: 3', '1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)']",2.0,"['1 = very dark / night-like', '5 = very bright / sun glare / glare from large light source', '1 = very dark / night-like', 'answer: 3', '3']",2.0,"['1 = very dark', '3 = moderate / typical indoor', '4', 'average', '1 = very dark / night-like\n2 = dim 3 = moderate / typical indoor\n4 = bright 5 = extremely bright\n(snow/sun glare, painful to look at)']",3.0,"['2 = dim', '2 = bright', 'dog', '1 2 3 4 5', '3 = moderate / typical indoor']",3.4,"['a', '60', '006_005_1', '1 2 3 4 5', 'dog']",3.4,,,,,,,,,,,,
+7,1.0,0.97,0.9699729756781104,"
+answer en Rate the OVERALL scene brightness from 1–5 by average appearance, 
+ignoring small light sources and specular highlights.
+
+Scale:
+1 = very dark / night-like
+2 = dim
+3 = moderate / typical indoor
+4 = bright
+5 = extremely bright (snow/sun glare, painful to look at)
+
+If uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.
+
+Question: What is the scene brightness?
+
+","['very dark / night-like', '0 = very dark / night-like', '1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright (snow/sun glare, painful to look at)', '4 = bright', '0']",1.6,"['1', '1 = extremely dark / night-like', '3 = moderate', '3 = moderate / typical indoor', '2 = dim']",2.2,"['If a scene is too bright, you can choose 3', '9', '0', '2 = dim', '6 = extremely bright']",1.8,"['5', '1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)\nScale:\n1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4', '0 = very dark / night-like', '2 = moderate', '5']",1.6,"['##', '8', '0 = very dark / night-like 1 = dim 2 = moderate / typical indoor 3 = bright 4 = extremely bright', '3 = moderate / typical indoor', '2 = dim']",2.8,"['0 = very dark / night-like', '2', '1', '©2017 CBS Interactive', 'Copyright © 2019, All Rights Reserved.']",1.6,,,,,,,,,,,,
+8,1.0,0.94,0.9399759903961584,"
+answer en Rate the OVERALL scene brightness from 1–5 by average appearance, 
+ignoring small light sources and specular highlights.
+
+Scale:
+1 = very dark / night-like
+2 = dim
+3 = moderate / typical indoor
+4 = bright
+5 = extremely bright (snow/sun glare, painful to look at)
+
+If uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.
+
+Question: What is the scene brightness?
+
+","['1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)\nQuestion: How does the scene look like?\nOutput only one digit (1–5). No words, no punctuation', '0 = very dark / night-like\n1 = dim\n2 = moderate / typical indoor\n3 = bright\n4 = extremely bright (snow/sun glare, painful to look at)', '1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright (snow/sun glare, painful to look at)', 'Answer: 3', 'Very dark / night-like']",2.4,"['#3', '3 = moderate / typical indoor', '5 = very bright / sunny', '1 = very dark / night-like', '1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)']",1.4,"['Question: How bright is the scene?', '3 = average indoor', '1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright', '3', '1 = very dark / night-like']",2.4,"['3', 'Answer: 4', '5 = extremely bright (snow/sun glare, painful to look at)', '1 2 3 4 5 6 7 8 9 10', '3 = moderate / normal brightness']",2.8,"['Answer: 3', 'Question: How bright is the scene?', 'Answer: 3', '1 = very dark / night-like', 'Answer: 3']",3.2,"['Click to play video', 'Question: How bright is the scene?', '2 = moderate / typical indoor', '#', '05:28:31']",3.0,,,,,,,,,,,,
+9,1.0,0.945,0.9449876222149984,"
+answer en Rate the OVERALL scene brightness from 1–5 by average appearance, 
+ignoring small light sources and specular highlights.
+
+Scale:
+1 = very dark / night-like
+2 = dim
+3 = moderate / typical indoor
+4 = bright
+5 = extremely bright (snow/sun glare, painful to look at)
+
+If uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.
+
+Question: What is the scene brightness?
+
+","['answer : 2', '#3.0', '1 = very dark / night-like', '3', '6']",2.0,"['0 = very dark / night-like\n1 = dim 2 = moderate / typical indoor 3 = bright 4 = extremely bright', 'Medium', '1 = very dark / night-like', 'Dog', '0 = very dark / night-like']",2.2,"['1 = very dark / night-like', '#', '2 = moderate / typical indoor\n3 = bright\n4 = extremely bright (snow/sun glare, painful to look at)', 'Answer: 3', '1 = very dark / night-like']",3.4,"['4 = bright', '1 = very dark / night-like', '5', 'answer: 3', '0 = very dark / night-like']",2.0,"['5 = bright', 'This image may contain human person animal mammal and pet', '5 = extremely bright', '9', '0 = very dark / night-like']",1.6,"['0 = very dark / night-like', 'For example, if you were looking at a very dark room with very bright windows and sun glare, you would choose 5.', '1 2 3 4 5', '5 = extremely bright', '5 = extremely bright']",2.8,,,,,,,,,,,,
+10,1.0,0.92,0.9199679871948779,"
+answer en Rate the OVERALL scene brightness from 1–5 by average appearance, 
+ignoring small light sources and specular highlights.
+
+Scale:
+1 = very dark / night-like
+2 = dim
+3 = moderate / typical indoor
+4 = bright
+5 = extremely bright (snow/sun glare, painful to look at)
+
+If uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.
+
+Question: What is the scene brightness?
+
+","['3 = moderate / typical indoor', '0 = very dark / night-like', 'my dog', '4 = bright', '1 = very dark / night-like']",2.8,"['Source', '1 = very dark / night-like', '1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)\nScale:\n1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4', '1 = very dark / night-like', '1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)\nScale: 1 = very dark / night-like\nIf uncertain, choose 3. Output only one digit (']",3.8,"['Medium', '1 = very dark / night-like', 'average', '0\n2', '5 = extremely bright']",3.2,"['3.0', '1', '0 = very dark / night-like', 'dog_and_cat_1_000', '4']",2.8,"['What is the word of the day?', 'Answer: 4', 'Scale: 3', 'by average appearance', '5 = extremely bright']",3.2,"['0 = very dark / night-like', '6 = extremely bright', '3 = moderate / typical indoor', '3', '5']",2.6,,,,,,,,,,,,
+11,1.0,0.94,0.93999399939994,"
+answer en Rate the OVERALL scene brightness from 1–5 by average appearance, 
+ignoring small light sources and specular highlights.
+
+Scale:
+1 = very dark / night-like
+2 = dim
+3 = moderate / typical indoor
+4 = bright
+5 = extremely bright (snow/sun glare, painful to look at)
+
+If uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.
+
+Question: What is the scene brightness?
+
+","['1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)\nScale:\n1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4', '1 = dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)', '1 = very dark / night-like', '0', '5 = extremely bright']",1.6,"['#', '1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)\nScale:\n1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4', '1 = very dark / night-like', 'Answer: 3', '5']",2.2,"['1 = very dark / night-like\n1 = dim\n2 = moderate / typical indoor\n3 = bright\n4 = extremely bright (snow/sun glare, painful to look at)', '1 = very dark / night-like', 'Answer: 3', 'Answer: 3', '0 = very dark / night-like']",2.0,"['4 = bright', 'answer: 2', '1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor', '5 = extremely bright', '1 2 3 4 5']",2.6,"['1', '1 2 3 4 5', 'video', 'Answer: 3', '3']",2.8,"['3', 'answer: 3', '#', '0 = very dark / night-like\n1 = dim 2 = moderate / typical indoor\n3 = bright\n4 = extremely bright', '1 2 3 4 5']",2.4,,,,,,,,,,,,
+12,1.0,0.93,0.9299929992999301,"
+answer en Rate the OVERALL scene brightness from 1–5 by average appearance, 
+ignoring small light sources and specular highlights.
+
+Scale:
+1 = very dark / night-like
+2 = dim
+3 = moderate / typical indoor
+4 = bright
+5 = extremely bright (snow/sun glare, painful to look at)
+
+If uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.
+
+Question: What is the scene brightness?
+
+","['Very dark / night-like', '5 = extremely bright', '1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)', '4', '1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright (snow/sun glare, painful to look at)']",1.4,"['1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)', 'answer: average', 'Medium', '1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright', 'A: 3']",2.6,"['(1-5 is very dark / night-like 3 is dim 2 is moderate / typical indoor 1 is bright 5 is extremely bright)', 'Average', '2 = dim', '2', '1 = very dark / night-like']",1.0,"['4 = bright', '5 = extremely bright', '0 = very dark / night-like\n1 = dim\n2 = moderate / typical indoor\n3 = bright\n4 = extremely bright\n5 = output only one digit (1-5)\nNo words, no punctuation.\nOutput only one digit (1-5)', '# 1', '1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)\nScale:\n1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4']",2.2,"['2 = medium', '1 = very dark / night-like', '1-5', '1 = very dark / night-like', '1']",3.2,"['answer : average', '5 = extremely bright', '3 = moderate / typical indoor', '3 = average', '1 2 3 4 5']",3.4,,,,,,,,,,,,
+13,1.0,0.94,0.9399759903961584,"
+answer en Rate the OVERALL scene brightness from 1–5 by average appearance, 
+ignoring small light sources and specular highlights.
+
+Scale:
+1 = very dark / night-like
+2 = dim
+3 = moderate / typical indoor
+4 = bright
+5 = extremely bright (snow/sun glare, painful to look at)
+
+If uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.
+
+Question: What is the scene brightness?
+
+","['1 = very dark / night-like', '5 = very bright', '1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n5 = extremely bright (snow/sun glare, painful to look at)\nScale: 1 = uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.', '0 = dark / night-like 1 = dim 2 = moderate / typical indoor 3 = bright 4 = extremely bright (snow/sun glare, painful to look at)', '1 = very dark / night-like']",1.8,"['How bright is the scene?', 'Answer', 'answer: 3', '1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)\nOutput only one digit (1–5). No words, no punctuation.', '1']",2.0,"['output', '1 2 3 4 5', '#2', '1 2 3 4 5', '1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)\nScale:\n1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4']",2.4,"['0 = very dark/night-like', '3', '1 = very dark / night-like', '1 = very dark / night-like', 'answer : 3']",2.4,"['1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright (snow/sun glare, painful to look at)', '1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4 = bright\n5 = extremely bright', '07.2019', 'answer: 3', '000000000 000000000 000000000 000000000 000000000 000000000 0000']",2.0,"['1', '2 = moderate / typical indoor', '1', '2', '1 2 3 4 5']",2.2,,,,,,,,,,,,
+14,1.0,0.915,0.9149808706959066,"
+answer en Rate the OVERALL scene brightness from 1–5 by average appearance, 
+ignoring small light sources and specular highlights.
+
+Scale:
+1 = very dark / night-like
+2 = dim
+3 = moderate / typical indoor
+4 = bright
+5 = extremely bright (snow/sun glare, painful to look at)
+
+If uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.
+
+Question: What is the scene brightness?
+
+","['1 = very dark / night-like', '1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright (snow/sun glare, painful to look at)', '4', '1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright (snow/sun glare, painful to look at)', '1 - 5']",2.4,"['5 = extremely bright', '1 = very dark / night-like', 'average', 'Question: Is the scene bright?', '# of digits 1']",2.4,"['2 = moderate / typical indoor', '0', '1 = very dark / night-like', '2 = dim', '1 = very dark / night-like']",3.0,"['1 = very dark / night-like', '3 = moderate / typical indoor', '3', '3 = moderate / typical indoor', 'Answer: 3']",1.8,"['1', '2', '1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright (snow/sun glare, painful to look at)', '1 5', 'medium']",2.0,"['2', '3', 'average', '1 = very dark', '1 = very dark / night-like']",2.4,,,,,,,,,,,,
+15,1.0,0.905,0.9049786201895427,"
+answer en Rate the OVERALL scene brightness from 1–5 by average appearance, 
+ignoring small light sources and specular highlights.
+
+Scale:
+1 = very dark / night-like
+2 = dim
+3 = moderate / typical indoor
+4 = bright
+5 = extremely bright (snow/sun glare, painful to look at)
+
+If uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.
+
+Question: What is the scene brightness?
+
+","['1 = very dark / night-like', '2 = moderate / typical indoor', '1', '2', '1']",1.4,"['5 = extremely bright', '0 = dark / night-like', '1 = very dark / night-like', 'Answer: 3', '#']",3.0,"['5', '8', '4', '1 = very dark / night-like', 'Yes']",3.0,"['0 = extremely bright', '1 = very dark / night-like\n2 = dim', '3', '1 = very dark / night-like', '1 2 3 4 5']",2.2,"['1 = very dark / night-like', '1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright (snow/sun glare, painful to look at)', '1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright (snow/sun glare, painful to look at)', '1 = very dark / night-like', '1 2 3 4 5']",2.8,"['3 = moderate / typical indoor', '2 = moderate indoor', '1 - very dark / night-like', '1 = very dark / night-like 2 = dim', '3 = moderate / typical indoor']",2.4,,,,,,,,,,,,
+16,1.0,0.91,0.9099639855942376,"
+answer en Rate the OVERALL scene brightness from 1–5 by average appearance, 
+ignoring small light sources and specular highlights.
+
+Scale:
+1 = very dark / night-like
+2 = dim
+3 = moderate / typical indoor
+4 = bright
+5 = extremely bright (snow/sun glare, painful to look at)
+
+If uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.
+
+Question: What is the scene brightness?
+
+","['1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright (snow/sun glare, painful to look at)', 'answer 1', '4 = bright', 'Very dark, 2 = moderate, 3 = typical indoor, 4 = bright, 5 = extremely bright.', '3 = moderate / typical indoor']",2.8,"['2 = moderate / typical indoor', '2', '5 = extremely bright', 'Answer: 3', '1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright']",2.6,"['1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)', '1 2 3 4 5', '2 < 3', '3 = moderate / typical indoor', '2. 3. 4. 5']",2.8,"['3 = dim', '3 = moderate / typical indoor', 'Answer: 3', '0 = very dark / night-like', '1: very dark / night-like']",1.6,"['Question number 231 in the video test', '3', '1', '1 = very dark / night-like 2 = dim 3 = average / typical indoor 4 = bright 5 = extremely bright (snow/sun glare, painful to look at)', '1 = very dark / night-like']",2.0,"['1 5', '2', '2 = bright', '1 = very dark / night-like', 'average']",2.8,,,,,,,,,,,,
+17,1.0,0.875,0.8747463613817982,"
+answer en Rate the OVERALL scene brightness from 1–5 by average appearance, 
+ignoring small light sources and specular highlights.
+
+Scale:
+1 = very dark / night-like
+2 = dim
+3 = moderate / typical indoor
+4 = bright
+5 = extremely bright (snow/sun glare, painful to look at)
+
+If uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.
+
+Question: What is the scene brightness?
+
+","['Answer:', '3 = moderate / typical indoor', '3 =', '4', '1 = very dark / night-like']",3.0,"['#', '1 = very dark / night-like', '0 = dark / night-like', '(1 = very dark / night-like 5 = extremely bright', '3']",2.0,"['2 = dim', '1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright (snow/sun glare, painful to look at)', '5 = extremely bright', 'output', '1']",1.8,"['1', '1 2 3 4 5', '1 - very dark / night-like 2 - dim 3 - moderate / typical indoor 4 - bright 5 - extremely bright (snow/sun glare, painful to look at)', '3 = moderate indoor', 'answer : 3']",3.4,"['1 = very dark / night-like', '1 = very dark / night-like', '(low light, dark room, bright sunlight)', '1 2 3 4 5', 'average']",4.0,"['5 = very bright', '1 = very dark / night-like 2 = dim', '2 = moderate / typical indoor', '1 bright 2 dim 3 moderate 4 bright', 'my dog is super excited when she sees me she is always so excited when i get home']",2.0,,,,,,,,,,,,
+18,1.0,0.805,0.8046043237556051,"
+answer en Rate the OVERALL scene brightness from 1–5 by average appearance, 
+ignoring small light sources and specular highlights.
+
+Scale:
+1 = very dark / night-like
+2 = dim
+3 = moderate / typical indoor
+4 = bright
+5 = extremely bright (snow/sun glare, painful to look at)
+
+If uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.
+
+Question: What is the scene brightness?
+
+","['3 = bright', '1 2 3 4 5', '012345', '5 = very bright', '1 = very dark / night-like 2 = dim 3 = moderate / typical indoor']",2.6,"['2 = dim', '1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)\nScale: 1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4', '1 = very dark / night-like', '1', '3 = moderate / typical indoor']",2.2,"['1 2 3 4 5', '2 = dim', 'I need to know how to get this dog to like my cat more', '1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright', 'light']",2.2,"['1 2 3 4 5', '1 = very dark / night-like', '1 = very dark / night-like', '(0-10)', '3']",3.0,"['1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright (snow/sun glare, painful to look at)', '#', '3 = moderate / typical indoor', '3 = average / light', '1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright (snow/sun glare, painful to look at) Output only one digit (1–5). No words, no punctuation.']",2.2,"['1 = very dark / night-like', '2 = moderate / typical indoor', '2 = moderate / typical indoor', '1 2 3 4 5', '0 = extremely dark / night-like']",2.0,,,,,,,,,,,,
+19,1.0,0.8,0.7998198378540686,"
+answer en Rate the OVERALL scene brightness from 1–5 by average appearance, 
+ignoring small light sources and specular highlights.
+
+Scale:
+1 = very dark / night-like
+2 = dim
+3 = moderate / typical indoor
+4 = bright
+5 = extremely bright (snow/sun glare, painful to look at)
+
+If uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.
+
+Question: What is the scene brightness?
+
+","['answer: Bright', '(1 = dark) (2 = slightly dim) (3 = medium brightness) (4 = bright) (5 = extremely bright)', '2 = dim', '#', '5 = extremely bright']",2.2,"['1 = very dark / night-like', '5', '5 = extremely bright', '5 = bright', '2 = moderate / typical indoor']",2.0,"['None of them', 'answer: 3', 'Answer: medium', '1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)\nScale : \n1 = 1 = 1 = 1 = 1 = 1 = 1 =', '1']",2.2,"['answer: 3', '3', '1 2 3 4 5 6 7 8 9 10 11 12 13', '5 = extremely bright', '1 = very dark / night-like']",2.6,"['3 = moderate / typical indoor', 'answer: average', '1 = very dark / night-like', '# of stars', '1: very dark / night-like']",2.0,"['4', '0', '5 = very bright / over-bright', '1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright', '1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright']",2.6,,,,,,,,,,,,
+20,1.0,0.8,0.8,"
+answer en Rate the OVERALL scene brightness from 1–5 by average appearance, 
+ignoring small light sources and specular highlights.
+
+Scale:
+1 = very dark / night-like
+2 = dim
+3 = moderate / typical indoor
+4 = bright
+5 = extremely bright (snow/sun glare, painful to look at)
+
+If uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.
+
+Question: What is the scene brightness?
+
+","['answer : 3', '1 = extremely dark / night-like', 'Question: What is the lighting like?', '1 2 3 4 5', '1 2 3 4 5']",1.6,"['3 = moderate / typical indoor', '2', '1 = very dark / night-like', 'average', '2 = moderate / typical indoor']",2.8,"['0\n1\n2\n3\n4\n5\n92', '0 = almost dark', '1', '1 2 3 4 5', '1 = very dark / night-like\n2 = dim\n3 = medium / typical indoor 4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)\nScale: 1 = very dark / night-like\n2 = dim\n3 = medium / typical indoor\n4']",2.0,"['1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright (snow/sun glare, painful to look at)', '3', '1 = very dark / night-like', '5 = very bright', '5 = extremely bright']",2.6,"['(dark) 2 (moderate) 3 (bright) 4 (extremely bright)', 'very dark / night-like', 'Question: Is human light on screen?', '1 = very dark', '5']",2.6,"['1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright (snow/sun glare, painful to look at)', '3', 'Answer: 5', '5 = extremely bright', '3']",3.0,,,,,,,,,,,,
+21,1.0,0.78,0.7798018216394755,"
+answer en Rate the OVERALL scene brightness from 1–5 by average appearance, 
+ignoring small light sources and specular highlights.
+
+Scale:
+1 = very dark / night-like
+2 = dim
+3 = moderate / typical indoor
+4 = bright
+5 = extremely bright (snow/sun glare, painful to look at)
+
+If uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.
+
+Question: What is the scene brightness?
+
+","['4 = bright', 'Answer: 3', 'How bright is it?', '5 = extremely bright', '1 = very dark / night-like']",2.6,"['1 = very dark / night-like', '1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright (snow/sun glare, painful to look at)', '5 = extremely bright', 'very dark / night-like', '1 = very dark / night-like']",2.2,"['4 = bright', 'very bright', 'answer: very dark / night-like', '5', '4 = bright']",2.6,"['3 = moderate / typical indoor', '5 = extremely bright', '0 = dark / night-like', 'bright', 'Output only one digit (1-5). No words, no punctuation.']",1.8,"['5', 'dog', '1 2 3 4 5', 'output 100', 'Answer: 3']",2.8,"['1 = very dark / night-like', '1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)\nScale:\n1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4', '4 = bright', '1 = very dark / night-like', '3']",1.8,,,,,,,,,,,,
+22,1.0,0.78,0.77997799779978,"
+answer en Rate the OVERALL scene brightness from 1–5 by average appearance, 
+ignoring small light sources and specular highlights.
+
+Scale:
+1 = very dark / night-like
+2 = dim
+3 = moderate / typical indoor
+4 = bright
+5 = extremely bright (snow/sun glare, painful to look at)
+
+If uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.
+
+Question: What is the scene brightness?
+
+","['answer: 3', '1 = very dark / night-like', 'bright', '2 = moderate / typical indoor', '9']",1.8,"['1', '5 = very bright', '1', '1 = very dark / night-like\n2 = dim', '5 = extremely bright']",2.8,"['3', '5 =', '3', 'video', '1 = very dark / night-like']",3.2,"['1 = very dark / night-like', '5 = extremely bright', '2 = dim', 'answer: 4', 'answer: 1']",2.0,"['answer: average', 'answer : 3', '#3 = bright', '1', 'answer: 2']",2.4,"['1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright (snow/sun glare, painful to look at)', 'I', '0 = dark', '1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright (snow/sun glare, painful to look at)', 'very dark / night-like']",2.4,,,,,,,,,,,,
+23,1.0,0.775,0.7749493636068115,"
+answer en Rate the OVERALL scene brightness from 1–5 by average appearance, 
+ignoring small light sources and specular highlights.
+
+Scale:
+1 = very dark / night-like
+2 = dim
+3 = moderate / typical indoor
+4 = bright
+5 = extremely bright (snow/sun glare, painful to look at)
+
+If uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.
+
+Question: What is the scene brightness?
+
+","['6 = extremely bright', 'Output only one digit (1–5).', '5 = extremely bright', '1 2 3 4 5', '5 = extremely bright']",2.4,"['1', '5 = very bright', '3 = moderate / typical indoor', '5', '1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright (snow/sun glare, painful to look at)']",1.8,"['#', 'answer: 3', '1', '6 = extremely bright', '1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright']",1.8,"['5 = Extremely bright', ""0 = so dark that it's impossible to tell the difference between the light and the darkness."", '1 2 3 4 5 :', '1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright (snow/sun glare, painful to look at)', 'Answer: 3']",3.0,"['bright', '012345', '0 = very dark / night-like\n1 = dim\n2 = moderate / typical indoor\n3 = bright\n4 = extremely bright\nOutput only one digit (1–5).\nNo words, no punctuation.', '1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)', '6 = very bright']",1.4,"['1 = very dark / night-like', '1 2 3 4 5', '5 = extremely bright', '0 = very dark\n1 = dim\n2 = moderate / typical indoor 3 = bright\n4 = extremely bright (snow/sun glare, painful to look at)', '2 = moderate / typical indoor']",2.2,,,,,,,,,,,,
+24,1.0,0.775,0.7749493636068115,"
+answer en Rate the OVERALL scene brightness from 1–5 by average appearance, 
+ignoring small light sources and specular highlights.
+
+Scale:
+1 = very dark / night-like
+2 = dim
+3 = moderate / typical indoor
+4 = bright
+5 = extremely bright (snow/sun glare, painful to look at)
+
+If uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.
+
+Question: What is the scene brightness?
+
+","['1 = Very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright (snow/sun glare, painful to look at)', '1 = very dark / night-like', '1', 'Answer: 3', 'Example: How bright is the room?']",3.0,"['2 = moderate / typical indoor', '1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright', '2 = dim', '3 = moderate / typical indoor', '1=very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4 = bright\n5 = extremely bright\nOutput only one digit (1–5)']",1.4,"['7', 'answer : 5', '3', '1 = very dark / night-like', '0 = very dark / night-like']",1.2,"['3 = moderate / typical indoor', '3 = moderate / typical indoor', 'medium', 'Answer: 3', '4 = bright']",2.0,"['2 = moderate / typical indoor', '1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)', '1 = very dark / night-like', '1 2 3 4 5', 'None']",2.2,"['1', 'Answer: 3', '3 = Moderate / typical indoor', '3 = bright', '2 = moderate']",2.4,,,,,,,,,,,,
+25,1.0,0.775,0.7749943748593715,"
+answer en Rate the OVERALL scene brightness from 1–5 by average appearance, 
+ignoring small light sources and specular highlights.
+
+Scale:
+1 = very dark / night-like
+2 = dim
+3 = moderate / typical indoor
+4 = bright
+5 = extremely bright (snow/sun glare, painful to look at)
+
+If uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.
+
+Question: What is the scene brightness?
+
+","['1 2 3 4 5', '5 = extremely bright', 'Output only one digit (1–5). No words, no punctuation.', '1', '0 = extremely dark / night-like']",3.0,"['1 = very dark / night-like', '#', 'Answer: 3', '1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)\nScale: 1 = very dark / night-like\nIf uncertain, choose 3. Output only one digit (', 'Answer: 2']",3.2,"['answer: average', '3 = moderate / typical indoor', '1 = very dark / night-like', '3', '1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright (snow/sun glare, painful to look at)']",2.2,"['Answer: 3', 'Answer: 3', '4 = bright', '3', '1']",2.4,"['1 = very dark / night-like\n2 = dim\n3 = moderate / typical indoor\n4 = bright\n5 = extremely bright (snow/sun glare, painful to look at)', '1', '1', '3 = moderate / typical indoor', '1 = very dark / night-like 2 = dim 3 = moderate / typical indoor 4 = bright 5 = extremely bright (snow/sun glare, painful to look at)']",3.4,"['4', 'Click to go to the video', '1 2 3 4 5', '1 = very dark / night-like', 'Medium']",1.4,,,,,,,,,,,,
+26,1.0,0.72,0.7197477729956961,"
+answer en Rate the OVERALL scene brightness from 1–5 by average appearance, 
+ignoring small light sources and specular highlights.
+
+Scale:
+1 = very dark / night-like
+2 = dim
+3 = moderate / typical indoor
+4 = bright
+5 = extremely bright (snow/sun glare, painful to look at)
+
+If uncertain, choose 3. Output only one digit (1–5). No words, no punctuation.
+
+Question: What is the scene brightness?
+
+",,,,,,,,,,,,,N/A,1,N/A,1,N/A,1,N/A,1,N/A,1,N/A,1
