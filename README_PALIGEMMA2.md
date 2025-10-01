@@ -12,7 +12,7 @@ All public checkpoints and documentation are discoverable on the Hugging Face Hu
 - Public documentation/model cards (tech report and per-checkpoint cards).
 
 ```bash
-python scripts/verify_assets.py
+!python scripts/verify_assets.py
 ```
 
 To download weights and optionally verify checksums/model cards:
@@ -85,7 +85,7 @@ Evaluate a checkpoint across registered tasks:
 python scripts/eval.py --checkpoint checkpoints/ckpt_step00000200.pt --model-size 3b --resolution 448
 ```
 
-Export activation snapshots for interpretability probes:
+Export activation snapshots for interpretability probes: # But should we export acitvations when it's combined with certain inputs?
 
 ```bash
 python scripts/export_activations.py --checkpoint checkpoints/ckpt_step00000200.pt \
